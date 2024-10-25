@@ -1,0 +1,21 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contact h6{
+            color: #576474;
+        font-family: "DM Sans";
+        font-size: 28px;
+        font-weight: 500;
+
+}
+
+.logo{
+    width: 10%;
+}
+
+.logo img{
+    width: 100%;
+}

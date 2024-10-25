@@ -1,0 +1,76 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  .main-app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact span {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .dropdown .dropdown-toggle {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 60px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    position: fixed;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-icon {
+    margin-bottom: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .home-icon {
+    font-size: 28px;
+  }
+  
